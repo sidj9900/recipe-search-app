@@ -1,23 +1,23 @@
-**Recipe Search and Display Application**
+**Recipe Search and Display Application:**
 This repository contains the source code for a Recipe Search and Display Application, a web tool that allows users to search for recipes based on ingredients or keywords and displays the results fetched from a public recipe API. The application is built using HTML, CSS, and JavaScript, and it integrates with a public recipe API (such as Spoonacular, Edamam, or TheMealDB) to fetch recipe data.
 
-**Features**
+**Features:**
 **Search Functionality**: Users can enter ingredients or keywords to search for recipes.
 **Visually Appealing Display**: Search results are presented in a visually appealing format, including recipe names, ingredients, and links to the full recipe.
 **Responsive Design**: The user interface is responsive and works well on various screen sizes.
 **Error Handling**: Graceful handling of errors with clear error messages displayed to the user.
 **Load More Functionality**: Users can load more recipes dynamically without refreshing the page.
 
-**Technologies Used**
+**Technologies Used:**
 HTML5
 CSS3
 JavaScript
 
-**Setup and Installation**
-To set up the application locally, follow these steps:
+**Setup and Installation:**
+To set up the application locally, follow these steps: 
 
   **Clone the repository:**
-  git clone https://github.com/sidj9900/recipe-search-app.git
+  git clone https://github.com/sidj9900/recipe-search-app.git 
   
   **Navigate to the project directory:**
   cd recipe-search-app
@@ -32,8 +32,8 @@ To set up the application locally, follow these steps:
 
 
 
-**Usage**
-Enter your desired ingredients or keywords in the search input field.
-Click the "Search" button to fetch recipes matching your search terms.
-Browse through the displayed recipes and click on the "View Recipe" link to view the full recipe.
+**Usage:**
+Enter your desired ingredients or keywords in the search input field. 
+Click the "Search" button to fetch recipes matching your search terms. 
+Browse through the displayed recipes and click on the "View Recipe" link to view the full recipe. 
 To load more recipes, click the "Load More" button at the bottom of the page.
