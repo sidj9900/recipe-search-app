@@ -1,0 +1,128 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px; /* Increase container width */
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* HTML: <div class="loader"></div> */
+/* styles.css */
+.loader-container {
+    position: relative; /* Make the container a positioning context */
+    width: 100%; /* Ensure full width */
+    height: 100vh; /* Ensure full viewport height */
+}
+
+.loader {
+    position: absolute; /* Position the loader relative to its container */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Move back by half of its size */
+    width: 90px;
+    height: 12px;
+    --c:#000 50%,#0000 0;
+    background: 
+      linear-gradient( 90deg,var(--c)) 0 0,
+      linear-gradient(-90deg,var(--c)) 0 0;
+    background-size: 20px 100%;
+    background-repeat: repeat-x;
+    animation: l10 1s infinite linear;
+}
+
+.load-more-btn {
+    display: block;
+    margin: 20px auto;
+    /* padding: 10px 10px; Adjust padding to set the button size */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px; /* Set fixed width */
+    height: 40px; /* Set fixed height */
+    text-align: center; /* Center text horizontally */
+    /* line-height: 40px; Center text vertically */
+}
+
+@keyframes l10 {
+    100% {background-position: -20px 0,20px 0}
+}
+
+
+  .recipe-card {
+    width: calc(25% - 20px); /* Adjust width to fit 4 cards in a row */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.recipe-content {
+    padding: 20px;
+}
+
+.recipe-content h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.recipe-content p {
+    margin-bottom: 10px;
+}
+
+.load-more-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.load-more-btn:hover {
+    background-color: #45a049;
+}
