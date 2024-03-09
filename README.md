@@ -2,7 +2,7 @@
 This repository contains the source code for a Recipe Search and Display Application, a web tool that allows users to search for recipes based on ingredients or keywords and displays the results fetched from a public recipe API. The application is built using HTML, CSS, and JavaScript, and it integrates with a public recipe API (such as Spoonacular, Edamam, or TheMealDB) to fetch recipe data.
 
 **Features**
-**Search Functionality**b: Users can enter ingredients or keywords to search for recipes.
+**Search Functionality**: Users can enter ingredients or keywords to search for recipes.
 **Visually Appealing Display**: Search results are presented in a visually appealing format, including recipe names, ingredients, and links to the full recipe.
 **Responsive Design**: The user interface is responsive and works well on various screen sizes.
 **Error Handling**: Graceful handling of errors with clear error messages displayed to the user.
